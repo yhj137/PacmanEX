@@ -1,8 +1,13 @@
 # PacmanEX
-A recreation of the classic game Pacman, built using python and pygame, with multiple algorithms for pathfinding and built-in AI.
-## How to run it
-First install pygame by this command:
-> pip install pygame
+经典游戏吃豆人的复刻版,基于python和pygame,内置多种寻路算法和内置游戏AI.
+## 运行：
+运行程序只需运行main.py即可,命令:python main.py
+环境依赖:pygame模块
 
-Then run PacmanEX by this command:
-> python main.py
+## 使用说明：
+进入程序后先选择一个模式,然后设置鬼的难度,设置合适的豆子数量,再点击一个地图即可进入相应模式
+最下方的文本框中有简短的游戏介绍和算法介绍,最后附有寻路算法所耗费的时间
+可在同一地图和同一豆子数量下,对比不同算法的特性
+若要进入智能体控制模式,请选择AI Agent模式!!!
+由于智能体不能达到100%胜利,若发现智能体输了,可以多试几次,或者重新运行游戏(实测中会发现有时运行游戏开局总是输，有时运行游戏开局总是赢)
+
